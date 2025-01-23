@@ -18,6 +18,12 @@
         "default": "Ctrl+Shift+C"
       },
       "description": "Copy Tab URL"
+    },
+    "open_pip": {
+      "suggested_key": {
+        "default": "Alt+P"
+      },
+      "description": "Open Picture-in-Picture"
     }
   },
   "icons": {
