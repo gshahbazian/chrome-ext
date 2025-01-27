@@ -29,7 +29,7 @@ function copyToClipboard(text) {
 function pipCommand(tab) {
   chrome.scripting.executeScript({
     target: { tabId: tab.id, allFrames: true },
-    world: "MAIN",
-    files: ["pip.js"],
+    world: 'MAIN',
+    files: ['pip.js'],
   })
 }
